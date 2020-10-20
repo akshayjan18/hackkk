@@ -1,12 +1,20 @@
 #include <stdio.h>
-int main()
+// int main()
+// {
+//     int number;
+//     print("Enter an integer: ")
+//     scanf("%d", &number);
+//     if(number % 2 == 0)
+//         print("%d is even ", number);
+//     else
+//         print("%d is odd ", number);
+//     return 0;
+// }
+void main()
 {
     int number;
-    print("Enter an integer: ")
-    scanf("%d", &number);
-    if(number % 2 == 0)
-        print("%d is even ", number);
-    else
-        print("%d is odd ", number);
-    return 0;
+    printf("Enter an integer no:");
+    scanf("%d",&number)
+    printf("You entered: %d no.", number);
+   
 }
