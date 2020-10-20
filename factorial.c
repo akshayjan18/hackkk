@@ -1,11 +1,12 @@
 #include<stdio.h>
 #include<conio.h>
-int main()
+void main()
 {
- printf("Enter any number : ");
+ printf("status-\n");
+ printf("Enter any no : ");
  scanf("%d", &n);
  for(i=1; i<=n; i++)
     fact = fact * i;
- printf("Factorial value of %d = %d",n,fact);
- return 0;
+ printf("Fact. value of %d = %d",n,fact);
+ 
 }
